@@ -29,8 +29,10 @@ public class ShooterSubsystem extends SubsystemBase
 		shooterReason = reason;
 	}
 
-	public void execute()
+	public void periodic()
 	{
 		shooterMotorLeft.set(shooterspeed, shooterReason);
 	}
 }
+
+// mmmmmmmm
