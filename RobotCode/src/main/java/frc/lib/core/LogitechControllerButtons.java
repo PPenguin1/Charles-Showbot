@@ -17,4 +17,5 @@ public class LogitechControllerButtons
 	public static final int right = 90;
 	public static final int down = 180;
 	public static final int left = 270;
+
 }
